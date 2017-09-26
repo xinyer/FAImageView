@@ -45,13 +45,13 @@
       <file leaf-file-name="FAImageView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/faimageview/src/main/java/kr/pe/burt/android/lib/faimageview/FAImageView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="172" column="13" selection-start-line="172" selection-start-column="13" selection-end-line="172" selection-end-column="13" />
+            <state relative-caret-position="168">
+              <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
               <folding>
-                <element signature="e#1837#1838#0" expanded="true" />
-                <element signature="e#1882#1883#0" expanded="true" />
-                <element signature="e#2529#4281#0" expanded="true" />
-                <element signature="e#4280#4281#0" expanded="true" />
+                <element signature="e#1857#1858#0" expanded="true" />
+                <element signature="e#1902#1903#0" expanded="true" />
+                <element signature="e#2549#4301#0" expanded="true" />
+                <element signature="e#4300#4301#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -3226,7 +3226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506425711492</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="recycle bitmap when reset.">
+      <created>1506425829963</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1506425829963</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3279,7 +3286,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="use bitmap, recycle." />
-    <option name="LAST_COMMIT_MESSAGE" value="use bitmap, recycle." />
+    <MESSAGE value="recycle bitmap when reset." />
+    <option name="LAST_COMMIT_MESSAGE" value="recycle bitmap when reset." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -3291,10 +3299,10 @@
         <state relative-caret-position="3216">
           <caret line="149" column="63" selection-start-line="149" selection-start-column="63" selection-end-line="149" selection-end-column="63" />
           <folding>
-            <element signature="e#1837#1838#0" expanded="true" />
-            <element signature="e#1882#1883#0" expanded="true" />
-            <element signature="e#2529#4281#0" expanded="true" />
-            <element signature="e#4280#4281#0" expanded="true" />
+            <element signature="e#1857#1858#0" expanded="true" />
+            <element signature="e#1902#1903#0" expanded="true" />
+            <element signature="e#2549#4301#0" expanded="true" />
+            <element signature="e#4300#4301#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3315,14 +3323,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faimageview/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/kr/pe/burt/android/lib/faimageview/app/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
@@ -3339,15 +3339,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/faimageview/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/faimageview/src/main/java/kr/pe/burt/android/lib/faimageview/FAImageView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="172" column="13" selection-start-line="172" selection-start-column="13" selection-end-line="172" selection-end-column="13" />
+        <state relative-caret-position="168">
+          <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
           <folding>
-            <element signature="e#1837#1838#0" expanded="true" />
-            <element signature="e#1882#1883#0" expanded="true" />
-            <element signature="e#2529#4281#0" expanded="true" />
-            <element signature="e#4280#4281#0" expanded="true" />
+            <element signature="e#1857#1858#0" expanded="true" />
+            <element signature="e#1902#1903#0" expanded="true" />
+            <element signature="e#2549#4301#0" expanded="true" />
+            <element signature="e#4300#4301#0" expanded="true" />
           </folding>
         </state>
       </provider>

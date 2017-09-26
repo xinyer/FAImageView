@@ -33,7 +33,7 @@ public class FAImageView extends ImageView {
     Timer timer;
     int interval = DEFAULT_INTERVAL;
 
-    ArrayList<Bitmap> drawableList;
+    ArrayList<Bitmap> drawableList = new ArrayList<>();
     int currentFrameIndex = -1;
     boolean loop = false;
     boolean didStoppedAnimation = true;
