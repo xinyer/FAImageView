@@ -34,7 +34,7 @@ public class FAImageView extends ImageView {
     Timer timer;
     int interval = DEFAULT_INTERVAL;
 
-    ArrayList<Bitmap> drawableList;
+    ArrayList<Bitmap> drawableList = new ArrayList<>();
     int currentFrameIndex = -1;
     boolean loop = false;
     boolean didStoppedAnimation = true;
@@ -55,7 +55,6 @@ public class FAImageView extends ImageView {
 
     public FAImageView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        drawableList = new ArrayList<>();
     }
 
     /**
@@ -67,6 +66,7 @@ public class FAImageView extends ImageView {
     }
 
     public void addImageFrame(Bitmap bitmap) {
+        if (this.drawableList == null) drawableList = new ArrayList<>();
         this.drawableList.add(bitmap);
     }
 

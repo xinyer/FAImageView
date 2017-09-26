@@ -9,7 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1f1b481-2cb4-4275-9001-667da9f50721" name="Default" comment="">
+    <list default="true" id="f1f1b481-2cb4-4275-9001-667da9f50721" name="Default" comment="fix null pointer exception.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faimageview/src/main/java/kr/pe/burt/android/lib/faimageview/FAImageView.java" afterPath="$PROJECT_DIR$/faimageview/src/main/java/kr/pe/burt/android/lib/faimageview/FAImageView.java" />
     </list>
@@ -48,14 +48,13 @@
       <file leaf-file-name="FAImageView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/faimageview/src/main/java/kr/pe/burt/android/lib/faimageview/FAImageView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+            <state relative-caret-position="383">
+              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
               <folding>
-                <element signature="e#1378#1379#0" expanded="true" />
-                <element signature="e#1413#1414#0" expanded="true" />
-                <element signature="e#1515#1516#0" expanded="true" />
-                <element signature="e#1918#1919#0" expanded="true" />
-                <element signature="e#1963#1964#0" expanded="true" />
+                <element signature="e#1398#1399#0" expanded="true" />
+                <element signature="e#1433#1434#0" expanded="true" />
+                <element signature="e#1496#1497#0" expanded="true" />
+                <element signature="e#1535#1536#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -3378,7 +3377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506427500647</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix null pointer exception.">
+      <created>1506427916963</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1506427916963</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3451,9 +3457,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="use bitmap, recycle." />
     <MESSAGE value="recycle bitmap when reset." />
-    <MESSAGE value="fix null pointer exception." />
     <MESSAGE value="fix null pointer exception &amp; fix test code." />
-    <option name="LAST_COMMIT_MESSAGE" value="fix null pointer exception &amp; fix test code." />
+    <MESSAGE value="fix null pointer exception." />
+    <option name="LAST_COMMIT_MESSAGE" value="fix null pointer exception." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -3465,11 +3471,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1378#1379#0" expanded="true" />
-            <element signature="e#1413#1414#0" expanded="true" />
-            <element signature="e#1515#1516#0" expanded="true" />
-            <element signature="e#1918#1919#0" expanded="true" />
-            <element signature="e#1963#1964#0" expanded="true" />
+            <element signature="e#1398#1399#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1535#1536#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3511,11 +3516,10 @@
         <state relative-caret-position="3216">
           <caret line="149" column="63" selection-start-line="149" selection-start-column="63" selection-end-line="149" selection-end-column="63" />
           <folding>
-            <element signature="e#1378#1379#0" expanded="true" />
-            <element signature="e#1413#1414#0" expanded="true" />
-            <element signature="e#1515#1516#0" expanded="true" />
-            <element signature="e#1918#1919#0" expanded="true" />
-            <element signature="e#1963#1964#0" expanded="true" />
+            <element signature="e#1398#1399#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1535#1536#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3573,14 +3577,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/faimageview/src/main/java/kr/pe/burt/android/lib/faimageview/FAImageView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+        <state relative-caret-position="383">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
           <folding>
-            <element signature="e#1378#1379#0" expanded="true" />
-            <element signature="e#1413#1414#0" expanded="true" />
-            <element signature="e#1515#1516#0" expanded="true" />
-            <element signature="e#1918#1919#0" expanded="true" />
-            <element signature="e#1963#1964#0" expanded="true" />
+            <element signature="e#1398#1399#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1535#1536#0" expanded="true" />
           </folding>
         </state>
       </provider>
