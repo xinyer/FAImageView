@@ -11,10 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f1f1b481-2cb4-4275-9001-667da9f50721" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/kr/pe/burt/android/lib/faimageview/app/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/kr/pe/burt/android/lib/faimageview/app/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/kr/pe/burt/android/lib/faimageview/app/SplashActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/kr/pe/burt/android/lib/faimageview/app/SplashActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faimageview/faimageview.iml" afterPath="$PROJECT_DIR$/faimageview/faimageview.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faimageview/src/main/java/kr/pe/burt/android/lib/faimageview/FAImageView.java" afterPath="$PROJECT_DIR$/faimageview/src/main/java/kr/pe/burt/android/lib/faimageview/FAImageView.java" />
     </list>
     <ignored path="FAImageView.iws" />
@@ -52,11 +48,14 @@
       <file leaf-file-name="FAImageView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/faimageview/src/main/java/kr/pe/burt/android/lib/faimageview/FAImageView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="599">
+              <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
               <folding>
-                <element signature="e#1738#1739#0" expanded="true" />
-                <element signature="e#1783#1784#0" expanded="true" />
+                <element signature="e#1378#1379#0" expanded="true" />
+                <element signature="e#1413#1414#0" expanded="true" />
+                <element signature="e#1515#1516#0" expanded="true" />
+                <element signature="e#1918#1919#0" expanded="true" />
+                <element signature="e#1963#1964#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -3372,7 +3371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506426471712</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix null pointer exception &amp; fix test code.">
+      <created>1506427500646</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1506427500647</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3388,7 +3394,7 @@
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5089153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962668" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838038" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3413,6 +3419,24 @@
       <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -3428,7 +3452,8 @@
     <MESSAGE value="use bitmap, recycle." />
     <MESSAGE value="recycle bitmap when reset." />
     <MESSAGE value="fix null pointer exception." />
-    <option name="LAST_COMMIT_MESSAGE" value="fix null pointer exception." />
+    <MESSAGE value="fix null pointer exception &amp; fix test code." />
+    <option name="LAST_COMMIT_MESSAGE" value="fix null pointer exception &amp; fix test code." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -3440,8 +3465,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1738#1739#0" expanded="true" />
-            <element signature="e#1783#1784#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
+            <element signature="e#1413#1414#0" expanded="true" />
+            <element signature="e#1515#1516#0" expanded="true" />
+            <element signature="e#1918#1919#0" expanded="true" />
+            <element signature="e#1963#1964#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3483,8 +3511,11 @@
         <state relative-caret-position="3216">
           <caret line="149" column="63" selection-start-line="149" selection-start-column="63" selection-end-line="149" selection-end-column="63" />
           <folding>
-            <element signature="e#1738#1739#0" expanded="true" />
-            <element signature="e#1783#1784#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
+            <element signature="e#1413#1414#0" expanded="true" />
+            <element signature="e#1515#1516#0" expanded="true" />
+            <element signature="e#1918#1919#0" expanded="true" />
+            <element signature="e#1963#1964#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3542,11 +3573,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/faimageview/src/main/java/kr/pe/burt/android/lib/faimageview/FAImageView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="599">
+          <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
           <folding>
-            <element signature="e#1738#1739#0" expanded="true" />
-            <element signature="e#1783#1784#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
+            <element signature="e#1413#1414#0" expanded="true" />
+            <element signature="e#1515#1516#0" expanded="true" />
+            <element signature="e#1918#1919#0" expanded="true" />
+            <element signature="e#1963#1964#0" expanded="true" />
           </folding>
         </state>
       </provider>

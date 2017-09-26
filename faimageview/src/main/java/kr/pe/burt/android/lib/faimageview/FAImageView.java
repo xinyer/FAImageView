@@ -45,6 +45,14 @@ public class FAImageView extends ImageView {
     private OnFrameChangedListener      frameChangedListener    = null;
     private OnFinishAnimationListener   finishAnimationListener = null;
 
+    public FAImageView(Context context) {
+        this(context, null);
+    }
+
+    public FAImageView(Context context, AttributeSet attrs) {
+        this(context, attrs, 0);
+    }
+
     public FAImageView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         drawableList = new ArrayList<>();
