@@ -166,6 +166,11 @@ public class FAImageView extends ImageView {
     public void reset() {
         stopAnimation();
         if(drawableList != null){
+            for (Bitmap bitmap : drawableList) {
+                if (bitmap != null) {
+                    bitmap.recycle();
+                }
+            }
             drawableList.clear();
             drawableList = null; 
         }
