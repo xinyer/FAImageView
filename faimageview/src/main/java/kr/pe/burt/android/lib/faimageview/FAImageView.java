@@ -2,6 +2,7 @@ package kr.pe.burt.android.lib.faimageview;
 
 import android.content.Context;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
@@ -33,7 +34,7 @@ public class FAImageView extends ImageView {
     Timer timer;
     int interval = DEFAULT_INTERVAL;
 
-    ArrayList<Bitmap> drawableList = new ArrayList<>();
+    ArrayList<Bitmap> drawableList;
     int currentFrameIndex = -1;
     boolean loop = false;
     boolean didStoppedAnimation = true;
@@ -44,16 +45,9 @@ public class FAImageView extends ImageView {
     private OnFrameChangedListener      frameChangedListener    = null;
     private OnFinishAnimationListener   finishAnimationListener = null;
 
-    public FAImageView(Context context) {
-        this(context, null);
-    }
-
-    public FAImageView(Context context, AttributeSet attrs) {
-        this(context, attrs, 0);
-    }
-
     public FAImageView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+        drawableList = new ArrayList<>();
     }
 
     /**
@@ -66,6 +60,11 @@ public class FAImageView extends ImageView {
 
     public void addImageFrame(Bitmap bitmap) {
         this.drawableList.add(bitmap);
+    }
+
+    public void addImageFrame(int imageRes) {
+        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), imageRes);
+        addImageFrame(bitmap);
     }
 
     public void startAnimation() {
