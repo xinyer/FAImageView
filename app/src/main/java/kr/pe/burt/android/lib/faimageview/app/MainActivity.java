@@ -18,31 +18,31 @@ public class MainActivity extends AppCompatActivity {
         faImageView1 = (FAImageView)findViewById(R.id.faimageview1);
         faImageView1.setInterval(30);
         faImageView1.setLoop(true);
-        faImageView1.addImageFrame(R.drawable.frame01);
-        faImageView1.addImageFrame(R.drawable.frame02);
-        faImageView1.addImageFrame(R.drawable.frame03);
-        faImageView1.addImageFrame(R.drawable.frame04);
-        faImageView1.addImageFrame(R.drawable.frame05);
-        faImageView1.addImageFrame(R.drawable.frame06);
-        faImageView1.addImageFrame(R.drawable.frame07);
-        faImageView1.addImageFrame(R.drawable.frame08);
-        faImageView1.addImageFrame(R.drawable.frame09);
-        faImageView1.addImageFrame(R.drawable.frame10);
+//        faImageView1.addImageFrame(R.drawable.frame01);
+//        faImageView1.addImageFrame(R.drawable.frame02);
+//        faImageView1.addImageFrame(R.drawable.frame03);
+//        faImageView1.addImageFrame(R.drawable.frame04);
+//        faImageView1.addImageFrame(R.drawable.frame05);
+//        faImageView1.addImageFrame(R.drawable.frame06);
+//        faImageView1.addImageFrame(R.drawable.frame07);
+//        faImageView1.addImageFrame(R.drawable.frame08);
+//        faImageView1.addImageFrame(R.drawable.frame09);
+//        faImageView1.addImageFrame(R.drawable.frame10);
 
 
         faImageView2 = (FAImageView)findViewById(R.id.faimageview2);
         faImageView2.setInterval(100);
         faImageView2.setLoop(true);
-        faImageView2.addImageFrame(R.drawable.frame01);
-        faImageView2.addImageFrame(R.drawable.frame02);
-        faImageView2.addImageFrame(R.drawable.frame03);
-        faImageView2.addImageFrame(R.drawable.frame04);
-        faImageView2.addImageFrame(R.drawable.frame05);
-        faImageView2.addImageFrame(R.drawable.frame06);
-        faImageView2.addImageFrame(R.drawable.frame07);
-        faImageView2.addImageFrame(R.drawable.frame08);
-        faImageView2.addImageFrame(R.drawable.frame09);
-        faImageView2.addImageFrame(R.drawable.frame10);
+//        faImageView2.addImageFrame(R.drawable.frame01);
+//        faImageView2.addImageFrame(R.drawable.frame02);
+//        faImageView2.addImageFrame(R.drawable.frame03);
+//        faImageView2.addImageFrame(R.drawable.frame04);
+//        faImageView2.addImageFrame(R.drawable.frame05);
+//        faImageView2.addImageFrame(R.drawable.frame06);
+//        faImageView2.addImageFrame(R.drawable.frame07);
+//        faImageView2.addImageFrame(R.drawable.frame08);
+//        faImageView2.addImageFrame(R.drawable.frame09);
+//        faImageView2.addImageFrame(R.drawable.frame10);
 
     }
 

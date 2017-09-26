@@ -33,7 +33,7 @@ public class FAImageView extends ImageView {
     Timer timer;
     int interval = DEFAULT_INTERVAL;
 
-    ArrayList<Drawable> drawableList;
+    ArrayList<Bitmap> drawableList;
     int currentFrameIndex = -1;
     boolean loop = false;
     boolean didStoppedAnimation = true;
@@ -64,28 +64,8 @@ public class FAImageView extends ImageView {
         this.interval = interval;
     }
 
-    @SuppressWarnings("deprecation")
-    public void addImageFrame(int resId) {
-
-        if(drawableList == null) {
-            drawableList = new ArrayList<>();
-            setImageDrawable(getContext().getResources().getDrawable(resId));
-        }
-        drawableList.add(getContext().getResources().getDrawable(resId));
-
-    }
-
-    public void addImageFrame(Drawable drawable) {
-        if(drawableList == null) {
-            drawableList = new ArrayList<>();
-            setImageDrawable(drawable);
-        }
-        drawableList.add(drawable);
-    }
-
     public void addImageFrame(Bitmap bitmap) {
-        Drawable bitmapDrawable = new BitmapDrawable(getResources(), bitmap);
-        addImageFrame(bitmapDrawable);
+        this.drawableList.add(bitmap);
     }
 
     public void startAnimation() {
@@ -106,8 +86,7 @@ public class FAImageView extends ImageView {
         if(currentFrameIndex == -1) {
             currentFrameIndex = 0;
         }
-        setImageDrawable(drawableList.get(currentFrameIndex));
-
+        setImageBitmap(drawableList.get(currentFrameIndex));
 
         if(timer == null) {
             timer = new Timer(interval, new Timer.OnTimer() {
@@ -144,10 +123,10 @@ public class FAImageView extends ImageView {
                         if (frameChangedListener != null) {
                             frameChangedListener.onFrameChanged(currentFrameIndex);
                         }
-                        setImageDrawable(drawableList.get(currentFrameIndex));
+                        setImageBitmap(drawableList.get(currentFrameIndex));
                     } else {
                         if(restoreFirstFrameWhenFinishAnimation) {
-                            setImageDrawable(drawableList.get(0));
+                            setImageBitmap(drawableList.get(0));
                         }
                         currentFrameIndex = -1;
                     }

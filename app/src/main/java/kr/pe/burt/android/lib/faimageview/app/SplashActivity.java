@@ -31,17 +31,17 @@ public class SplashActivity extends AppCompatActivity {
         faImageView.setLoop(false);
         faImageView.setRestoreFirstFrameWhenFinishAnimation(false);
 
-        Bitmap number01 = BitmapFactory.decodeResource(getResources(), R.drawable.number01);
-        Bitmap number02 = BitmapFactory.decodeResource(getResources(), R.drawable.number02);
-        Bitmap number03 = BitmapFactory.decodeResource(getResources(), R.drawable.number03);
+//        Bitmap number01 = BitmapFactory.decodeResource(getResources(), R.drawable.number01);
+//        Bitmap number02 = BitmapFactory.decodeResource(getResources(), R.drawable.number02);
+//        Bitmap number03 = BitmapFactory.decodeResource(getResources(), R.drawable.number03);
 
-        faImageView.addImageFrame(R.drawable.number01);
-        faImageView.addImageFrame(R.drawable.number02);
-        faImageView.addImageFrame(R.drawable.number03);
-        faImageView.addImageFrame(number01);
-        faImageView.addImageFrame(number02);
-        faImageView.addImageFrame(number03);
-        faImageView.addImageFrame(shapeDrawableToBitmap(getResources().getDrawable(R.drawable.circle), 300, 300));
+//        faImageView.addImageFrame(R.drawable.number01);
+//        faImageView.addImageFrame(R.drawable.number02);
+//        faImageView.addImageFrame(R.drawable.number03);
+//        faImageView.addImageFrame(number01);
+//        faImageView.addImageFrame(number02);
+//        faImageView.addImageFrame(number03);
+//        faImageView.addImageFrame(shapeDrawableToBitmap(getResources().getDrawable(R.drawable.circle), 300, 300));
 
         faImageView.setOnStartAnimationListener(new FAImageView.OnStartAnimationListener() {
             @Override
